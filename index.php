@@ -1,6 +1,6 @@
 <?php 
 // Koneksi Ke DB
-$conn = mysqli_connect('localhost','root','','db_pw') or die('Koneksi ke DB GAGAL!');
+$conn = mysqli_connect('localhost','root','','prakweb2023_B_213040127_pw') or die('Koneksi ke DB GAGAL!');
 
 // Query ke tabel buku
 $result = mysqli_query($conn, "SELECT * FROM buku") or die(mysqli_error($conn));
